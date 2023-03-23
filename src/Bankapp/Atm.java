@@ -1,6 +1,7 @@
 package Bankapp;
 
-public class Atm  implements Bank{
+public class Atm  implements Bank
+{
 	
 	
 	
@@ -25,6 +26,13 @@ public class Atm  implements Bank{
 	@Override
 	public void checkbalance() {
 		System.out.println("available balance is "+balance);
+		
+	}
+
+	@Override
+	public void checkAccountNo() 
+	{
+		System.out.println("Checking Account Number but, You should know ur accountNo ");
 		
 	}
 	
