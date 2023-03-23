@@ -1,4 +1,4 @@
-package Bankapp;
+ package Bankapp;
 
 public class Atm  implements Bank{
 	
