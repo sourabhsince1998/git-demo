@@ -10,6 +10,7 @@ public static void main(String[] args) {
 	obj.checkbalance();
 	obj.deposit(4000);
 	obj.checkbalance();
+	obj.checkAccount();
 	
 	
 	
