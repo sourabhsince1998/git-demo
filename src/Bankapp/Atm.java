@@ -27,6 +27,13 @@ public class Atm  implements Bank{
 		System.out.println("available balance is "+balance);
 		
 	}
+
+	@Override
+	public void checkAccount()
+	{
+		System.out.println("checking account");
+		
+	}
 	
 
 }
